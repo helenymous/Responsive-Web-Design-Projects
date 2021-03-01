@@ -1,0 +1,89 @@
+https://codepen.io/helenymous/pen/eYBBZOM?editors=1100
+
+HTML:
+
+<header>
+      <h1 id="title">Formulario Online, ¡salva a los osos polares!</h1>
+  </header>
+  
+  <body>
+    <p id="description">Gracias por ayudarnos a preservar nuestro Planeta Tierra.</p>
+    
+    <form id="survey-form">
+      <label for="name" id="name-label">Nombre completo:</label>
+      <input id="name" type="text"required name="name" placeholder="Escribe tu nombre"> </input>
+    <br>
+    
+    <label for"email" id="email-label">E-mail:</label>
+    <input id="email" type="email" name="email"required placeholder="Escribe tu correo"> </input>
+    <br>
+
+<label for="number" id="number-label">Teléfono:</label>
+<input id="number" type="number" name="number" placeholder="Escribe tu número" min="600000000" max="699999999"required> </input>
+    <br>
+
+<label for="dropdown" id="dropdown">¿Qué osos crees que son los más cuquis?</label>
+
+  <label for="Polares"><input id="polares" value="polares" type="radio" name="polares-pandas">Polares</label>
+  
+  <label for="Pandas"><input id="pandas" value="pandas" type="radio" name="polares-pandas">Pandas</label>
+  
+<select name="sentimiento" id="dropdown" list="sentimiento">
+  <option value="seguro">No estoy seguro/a</option>
+  <option value="pardos">Sin duda son los pardos</option>
+  <option value="delfines">Prefiero los delfines</option>
+</select>
+<br>
+
+<label for="antartida"><input id="antartida" value="antartida" type="checkbox" name="entorno">Antártida</label>
+<label for="bosque"><input id="bosque" value="bosque" type="checkbox" name="entorno">Bosque de bambú</label>
+<label for="montaña"><input id="montaña" value="montaña" type="checkbox" name="entorno">Montaña</label>
+<br>
+
+<textarea id="comentarios">¿Deseas comentar algo más?</textarea>
+<br>
+<button id="submit" type="submit">Enviar</button>
+      
+    </form>
+  </body>
+
+
+CSS:
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  color: #1AB291;
+  font-family: monospace;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+  font-family: tahoma;
+}
+
+#survey-form {
+  font-family: monospace;
+  font-size: 20px;
+  color: #1AB291;
+  padding-top: 30px;
+  padding-left: 250px;
+  
+}
+
+#comentarios {
+  font-size: 15px;
+  font-family: tahoma;
+  padding-right: 100px;
+}
+
+#enviar {
+  font-size: 25px;
+  position: block;
+}
+
+body {
+  background-color: #CAFDEC;
+}
+  

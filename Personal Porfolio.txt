@@ -1,0 +1,297 @@
+https://codepen.io/helenymous/pen/JjbrObM?editors=1100
+
+HTML:
+
+<meta name="viewport" content="height=100vh">
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Sobre mí</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+     </ul>
+  </nav>
+  
+  <section id="welcome-section">
+    <h1><b>¡Bienvenidos a mi Portafolio Personal!</b></h1>
+    <h3>Soy @helenymous y me estoy iniciando en la programación</h3>
+  </section>
+
+
+<section id="projects">
+  <h2>Algunos de los proyectos que he realizado hasta ahora...</h2>
+  
+  <div class="project-tile" id="tribute-page">
+    <a class="tribute" href="https://codepen.io/helenymous/full/abBmaQa" target="_blank"><img src="https://i.ibb.co/4t5WgD4/Foto-Tribute-Page.jpg" alt="Foto-Tribute-Page" border="1"></a>
+    <figcaption class="ludo"><a href="https://codepen.io/helenymous/full/abBmaQa" target="_blank"><em>FCC: Mi Tributo a Ludovico Einaudi</em></a></figcaption>
+    </div>
+  
+  <div id="survey-form">
+    <a class="survey" href="https://codepen.io/helenymous/pen/eYBBZOM" target="_blank"><img src="https://i.ibb.co/qJsn7hd/Foto-Formulario.jpg" alt="Foto-Formulario" border="1"></a>
+    <figcaption class="form"><a href="https://codepen.io/helenymous/pen/eYBBZOM" target="_blank"><em>FCC: Formulario para Salvar a los Osos Polares</em></a></figcaption>
+  </div>
+  
+  <div id="product">
+    <a class="happy" href="https://codepen.io/helenymous/pen/rNWjaKw" target="_blank"><img src="https://i.ibb.co/8z6qdsj/Foto-Product-Landing.jpg" alt="Foto-Product-Landing" border="0"></a>
+    <figcaption class="bags"><a href="https://codepen.io/helenymous/pen/rNWjaKw" target="_blank"><em>FCC: Mi Producto "Fake", Happy Bags</em></a></figcaption>
+  </div>
+  
+    <h1 class="otros">¡Echa un vistazo al resto de mis trabajos <a id="profile-link" href="https://www.freecodecamp.org/helenymous" target="_blank">aquí!</a></h1>
+  
+</section>
+
+<section id="contact">
+  <hr id="line">
+  <h2 class="seguimos">¿Nos seguimos conociendo?</h2>
+  
+ <a id="codepen" href="https://codepen.io/helenymous" target="_blank">codepen/helenymous</a>
+  
+  <a id="facebook" href="https://www.facebook.com/helenymous/" target="_blank">facebook.com/helenymous</a>
+  
+  <a id="twitter" href="https://twitter.com/helenymous" target="_blank">twitter.com/helenymous</a>
+    
+</section>
+
+
+CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neucha&display=swap');
+
+@media (max-height: 450px) {
+    #welcome-section {
+height: 450px;
+  }
+  
+  #navbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }  
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #E01F48;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  font-family: 'Lobster Two', cursive;
+  font-size: 27px;
+  color: #FFE252;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-left: 700px;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Neucha', cursive;
+  color: #E01F48;
+  background-color: #FFE252;
+  height: 100vh;
+  display: block;
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+h3 {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(-60deg, #FFE252, #E01F47);
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+  font-size: 40px;
+  color: #FFEF9E;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  height: 350px;
+  margin-top: 60px;
+  margin-left: 80px;
+  border-radius: 50px;
+  background-color: #E01F48;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  margin-left: 500px;
+  margin-top: -350px;
+  background-color: black;
+  border-radius: 50px;
+  background-color: #E01F48; 
+}
+
+#product {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  margin-left: 920px;
+  margin-top: -350px;
+  border-radius: 50px;
+  background-color: #E01F48;
+}
+
+.tribute {
+  display: flex;
+  width: 100px;
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.ludo {
+  font-size: 25px;
+  font-family: 'Neucha';
+  margin-top: 250px;
+  margin-left: -100px;
+  margin-right: 20px;
+  color: #FFEF9E;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    color: #FFEF9E;
+}
+
+.survey {
+  display: flex;
+  width: 100px;
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.form {
+  font-size: 25px;
+  font-family: 'Neucha';
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.happy {
+  display: flex;
+  width: 100px;
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 27px;
+}
+
+.bags {
+  font-size: 25px;
+  font-family: 'Neucha';
+  margin-top: 27px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.otros {
+  margin-top: 80px;
+  color: #E01F48;
+  text-shadow: 2px 2px 3px #000000;
+  font-family: 'Neucha';
+}
+
+#profile-link {
+  color: #FFE252;
+}
+
+#contact {
+  width: 100%;
+  height: 200px;
+  background-color: #FADE68;
+}
+
+#line {
+  background-color: #E01F48;
+  height: 5px;
+  margin-top: -10px;
+}
+
+.seguimos {
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: #E01F48;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+#codepen {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  flex-direction: column;
+  margin-left: 800px;
+  margin-top: -45px;
+  font-family: 'Neucha';
+  font-size: 25px;
+  color: #E01F48;
+}
+
+#facebook {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  flex-direction: column;
+  margin-left: 800px;
+  margin-top: -45px;
+  font-family: 'Neucha';
+  font-size: 25px;
+  color: #E01F48;
+}
+
+#twitter {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  flex-direction: column;
+  margin-left: 800px;
+  margin-top: 80px;
+  font-family: 'Neucha';
+  font-size: 25px;
+  color: #E01F48;
+}
+
+

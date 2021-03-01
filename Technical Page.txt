@@ -1,0 +1,215 @@
+https://codepen.io/helenymous/pen/WNojrWV?editors=1100
+
+HTML:
+
+<body>
+
+<nav id="navbar">
+  <header class="title">Fotografía y Técnica Fotográfica</header>
+  
+  <a class="nav-link" href="#introducción">Introducción</a>
+  <a class="nav-link" href="#proceso">Proceso</a>
+  <a class="nav-link" href="#funcionamiento">Funcionamiento</a>
+  <a class="nav-link" href="#características_de_la_cámara">Características de la cámara</a>
+  <a class="nav-link" href="#uso_del_color">Uso del color</a>
+  <a class="nav-link" href="#la_nueva_era_móvil">La nueva era móvil</a>
+  
+  <h5>A Technical Page by @helenymous</h5>
+  
+    </nav>
+  
+<main id="main-doc">
+  
+  <section class="main-section" id="introducción">
+    <header>Introducción</header>
+    <p>La fotografía es el proceso de proyectar imágenes y capturarlas, bien por medio del fijado en un medio sensible a la luz o por la conversión en señales electrónicas. Basándose en el principio de la cámara oscura, se proyecta una imagen captada por un pequeño agujero sobre una superficie, de tal forma que el tamaño de la imagen queda reducido. Para capturar y guardar esta imagen, las cámaras fotográficas utilizan película sensible para la fotografía química, mientras que en la fotografía digital se emplean sensores tipo CCD, CMOS, etc.; que graban luego las imágenes en memorias digitales. El término fotografía sirve para denominar tanto al conjunto del proceso de obtención de esas imágenes como a su resultado: las propias imágenes obtenidas o «fotografías».</p>
+    <p>El término fotografía proviene del griego ??? (raíz ???-, ph?s, «luz»), y ????? (raíz ????-, graf, «rayar, dibujar, escribir»), que en conjunto, significa «escribir/grabar con la luz».
+
+Varias personas pueden haber acuñado el mismo término nuevo a partir de estas raíces de forma independiente. Hércules Florence, un pintor e inventor francés que vivió en Campinas, Brasil, utilizó la forma francesa de la palabra, fotografía, en notas privadas que un historiador brasileño cree que fueron escritas en 1834.3? Esta afirmación está ampliamente difundida, pero todavía no se reconoce en gran medida a nivel internacional. El primer uso de la palabra por el inventor franco-brasileño se dio a conocer ampliamente después de la investigación de Boris Kossoy en 1980.</p>
+  </section>
+  
+  <section class="main-section" id="proceso">
+    <header>Proceso</header>
+    <p>Basándose en el principio de la cámara oscura, se proyecta una imagen captada por un pequeño agujero (fotografía estenopeica) o una lente o conjunto de ellas (lo cual se denomina objetivo), sobre una superficie; para capturar y almacenar esta imagen, las cámaras tradicionales utilizan un soporte cubierto por un compuesto químico sensible a la luz (en la mayoría de ellas, película fotográfica), mientras que en la fotografía digital, se emplea un sensor de imagen que divide el cuadro en una rejilla horizontal y vertical de elementos —capturando la luz de cada uno de ellos y convirtiéndola en valores de voltaje—, que se convierten en valores numéricos tras un proceso de conversión analógica-digital, siendo posteriormente transmitidos a un ordenador embebido en el dispositivo, el cual les da un formato y permite su transmisión o su almacenamiento en un medio digital, para su posterior impresión, visualización o análisis.</p>
+  </section>
+  
+  <section class="main-section" id="funcionamiento">
+    <header>Funcionamiento</header>
+    <p>La cámara oscura es el dispositivo formador de la imagen, mientras que la película fotográfica o el sensor electrónico se encargan de captarla. El almacenamiento de las imágenes capturadas depende del tipo de cámara, quedando guardadas en la misma película si se trata de máquinas clásicas, o en algún dispositivo de memoria en las digitales. En este último caso, la imagen resultante se almacena electrónicamente como información digital, pudiendo ser visualizada en una pantalla o reproducida en papel o en película.</p>
+
+<p>Para realizar una toma, el fotógrafo configura previamente la cámara y la lente con el fin de ajustar la calidad de la imagen lumínica a ser proyectada sobre el material fotosensible. Al dispararse el obturador, dicho material es finalmente expuesto, provocando en él alteraciones químicas o físicas que constituyen una "imagen latente", aún no visible pero presente en su estructura interna. Tras un proceso adecuado, esta información se convierte en una imagen utilizable. En las cámaras clásicas el material sensible es una película o placa fotográfica; mientras que las digitales utilizan dispositivos electrónicos sensibles a la luz, que pueden estar basados en tecnología CCD o en CMOS.</p>
+    
+    <p>La cámara de cine es un tipo especial de cámara fotográfica que toma una secuencia rápida de fotografías en tiras de película. Cuando se reproducen a una determinada velocidad los ojos y el cerebro de una persona unen la secuencia de imágenes separadas y se crea la sensación de movimiento.</p>
+  </section>
+    
+  <section class="main-section" id="características_de_la_cámara">
+    <header>Características de la cámara</header>
+    <p>En todas las cámaras, excepto en algunas especializadas, el proceso de obtención de una exposición correcta se produce a través del ajuste de una serie de controles con los que se trata que la fotografía sea clara, nítida y bien iluminada. Los controles habituales que se incluyen son los siguientes:</p>
+    <p>
+      <li>Enfoque</li>
+      <code>El ajuste que sitúa el punto más nítido de la imagen donde se desee. En las cámaras modernas, existirán puntos de autoenfoque sobre los que el sistema de autoenfoque de la cámara tratará de enfocar.</code>
+      <li>Apertura de diafragma</li>
+     <code>El ajuste del diafragma de la lente, medible mediante el número f, el cual controla la cantidad de luz que pasa a través del objetivo. La apertura tiene efecto en dos elementos: la profundidad de campo y la difracción: cuánto más alto sea el número f, más pequeña será la apertura, menor la cantidad de luz que entre por el objetivo, mayor la profundidad de campo y también mayor el efecto difuminador de la difracción. La longitud focal dividida por el número f es lo que da el diámetro efectivo de la apertura.</code>
+      <li>Velocidad de obturación</li>
+      <code>El ajuste del lapso durante el cual el captor o la película es expuesto a la luz en cada toma. Las velocidades de disparo rápidas, o sea los tiempos de exposición cortos, decrementan tanto la cantidad de luz como la posibilidad de trepidación, debida al pulso, cuando se usa la cámara sin trípode.</code>
+      <li>Balance de blancos</li>
+      <code>En equipos digitales, la compensación electrónica de la temperatura de color asociada a unas determinadas condiciones lumínicas, asegurándose que la luz blanca es registrada como tal en el captor de imagen y, por lo tanto, los colores en la imagen parecerán naturales. En las cámaras de carrete, esta función se ejerce mediante la elección de determinados tipos de película fotográfica o con filtros correctores de color. Además de usar el balance de blancos para registrar la coloración natural de la imagen, los fotógrafos la pueden emplear con fines estéticos, por ejemplo, para obtener temperaturas de color más cálidas.</code>
+      <li>Sensibilidad ISO</li>
+      <code>Tradicionalmente ha sido usada para indicar a la cámara la velocidad ASA/DIN de la película utilizada en cámaras de película. Hoy en día las velocidades ISO son empleadas en las cámaras modernas para indicar la ganancia de luz del sistema en formato numérico y para controlar el sistema de exposición automático. Cuanto mayor sea el número ISO, mayor será la sensibilidad de la película o del captor a la luz, mientras que con un número ISO menor, la película es menos sensible a la luz. Con una correcta combinación de velocidad ISO, apertura, y velocidad de disparo se consigue una imagen que no es ni demasiado oscura ni demasiado clara, y por lo tanto 'correctamente expuesta'.</code>
+      
+      
+    </p>
+    <p>
+  </section>
+  
+  <section class="main-section" id="uso_del_color">
+    <header>Uso del color</header>
+    <p>
+    El color está siempre presente en la fotografía y nos puede ayudar de manera significativa para resaltar nuestros encuadres. El mismo tiene una importancia muy grande dentro del lenguaje visual teniendo un gran impacto emocional.</p>
+    <p>La teoría del color es un grupo de reglas básicas en la mezcla de colores para conseguir el efecto deseado combinando colores de luz. La luz blanca se puede producir combinando el rojo, el verde y el azul, mientras que combinando pigmentos cían, magenta y amarillo se produce el color negro.</p>
+    <p>El círculo cromático se divide en tres grupos de colores primarios, con los que se pueden obtener los demás colores. Los colores primarios son el <b class="azul">azul</b>, el <b class="amarillo">amarillo</b> y el <b class="rojo">rojo</b>. La combinación de estos produce un fuerte contraste entre ellos.
+
+      Por otro lado, consideramos como colores secundarios : <b class= "verde">verde</b>, <b class="lila">violeta</b> o <b class="naranja">naranja</b>.
+</p>
+    <p>Se llaman colores cálidos aquellos que van del rojo al amarillo. Son colores “cálidos” porque suelen llevar asociada una sensación subjetiva relacionada con la calidez. Los colores fríos son los que van del azul al verde. Provocan una sensación subjetiva asociada al frío. Visualmente hablando, los colores calientes dan la impresión de avanzar y los fríos de retroceder.</p>
+    
+    <p>El uso de ciertos colores impacta el estado de ánimo de las personas. El mismo es esencial para determinar el impacto de la imagen en los espectadores: los colores <b class="azul">azul</b>, <b class="amarillo">amarillo</b> y <b class="rojo">rojo</b> se utilizan de manera adjunta y producen una sensación de armonía. Los colores complementarios producen un efecto de agresividad, provocado por el máximo contraste al utilizarlos juntos.</p>
+    
+  </section>
+  
+  <section class="main-section" id="la_nueva_era_móvil">
+    <header>La nueva era móvil</header>
+    <p>Durante las últimas décadas, los avances tecnológicos y el desarrollo de teléfonos inteligentes cada vez más inteligentes -especialmente tras la aparición del primer iPhone de Apple y la evolución que trajo aparejada- han llevado la fotografía a un nivel que va más allá de las nuevas técnicas y programas de postproducción: a la era de la fotografía móvil. Un punto en el que entran en juego desde la creación de apps de edición y redes sociales, hasta la fabricación de lentes específicas para cámaras móviles. Y es que todo ha cambiado desde que en el año 2000 Sharp y J-Phone crearan su primer teléfono dotado con cámara fotográfica. La cámara del J-SH04 era capaz de tomar fotografías con una resolución de 0.1 megapixeles para un display de 256 colores. En todo caso, la cámara para móviles fue inventada en junio de 1997 por Philippe Kahn, un invento para el que combinó portátiles, móviles y cámaras digitales; y con el que compartió la fotografía de su hija recién nacida.</p>
+    
+    <p>Hoy la mayoría de nuestros dispositivos -incluso los de gama baja- cuentan con una resolución superior a los 16 megapixeles en la posterior, 8 en la frontal, y son incluso capaces de grabar vídeos en 4K. Sin embargo, hasta el año 2009 no se vivió una auténtica revolución en este ámbito. Hasta entonces, Samsung, HTC, Nokia y Sony Ericsson -entre otras marcas- habían jugueteado entre los 3 y los 8 megapixeles. Pero no fue hasta el 2009 cuando esta primera lanzó el Samsung M8910 Pixon12, un terminal que venía con una cámara de 12 megapixeles. Nokia y Ericsson contraatacaron poco después con los 12 y 16 megapixeles del N8 y el S006, respectivamente.</p>
+    
+    <p>Los avances tecnológicos y la fotografía móvil dieron lugar a la popularizacion de nuevas técnicas de fotografía como el autorretrato o selfie, muy ligados al uso de redes sociales.
+
+
+Unas innovaciones que, al mismo tiempo, han dado lugar a nuevos profesionales y expertos en fotografía móvil como Kevin Russ, Olly Lang, Rodrigo Rivas, Javier Castañeda, Koshi Nishijima, y Nico Oppel, que aprovechan las dimensiones, tamaño y perspectiva de estos dispositivos para dar lugar a nuevas composiciones y técnicas.</p>
+  </section>
+  
+  
+  
+</main>
+  
+</body>
+  
+
+CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Squada+One&display=swap');
+
+@media (max-height: 800px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+.title {
+  font-family: 'Squada One', cursive;
+  font-size: 45px;
+  text-align: center;
+  color: #E63D33;
+  background-color: #FAD566;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 1600px;
+  align-items: stretch;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: left;
+  background-color: #FAE1A7;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #E6783E; 
+    margin-top: 130px;
+    
+}
+
+
+.main-section {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+ 
+}
+
+p {
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+header {
+  margin-bottom: 20px;
+  color: maroon;
+}
+
+li {
+  list-style: circle;
+  font-size: 25px;
+}
+
+#main-doc {
+  display: flex;
+  width: 900px;
+  height: 800px;
+  flex-direction: column;
+  margin-left: 450px;
+  margin-top: -1550px;
+  text-align: center;
+  color: #E63D33;
+}
+
+h5 {
+  font-family: monospace;
+  font-size: 15px;
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+code {
+  display: flex;
+  font-size: 15px;
+  background-color: #FAE1A7;
+  color: black;
+  margin: 20px 0px 30px 0px
+}
+
+.azul {
+  color: blue;
+}
+
+.amarillo {
+  color: yellow;
+}
+
+.rojo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.lila {
+  color: violet;
+}
+
+.naranja {
+  color: orange;
+}
+
+.lista {
+  font-family: 'Baloo 2';
+  font-size: 20px;
+}

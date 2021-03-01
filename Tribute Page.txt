@@ -1,0 +1,83 @@
+https://codepen.io/helenymous/pen/abBmaQa
+
+
+HTML:
+
+<style>
+  body {
+    background-color: silver;
+    font-family: tahoma;
+  }
+  
+</style>
+
+<div id="main">
+
+<h1 id="title">Ludovico Einaudi</h1>
+  
+  <div id="img-div">
+    <a id="tribute-link" target="_blank" href="https://es.wikipedia.org/wiki/Ludovico_Einaudi#Discograf%C3%ADa_y_obra_completa">
+    
+    <img id="image" src="https://m.guiadelocio.com/var/guiadelocio.com/storage/images/conciertos/grupos/ludovico-einaudi/2040129-15-esl-ES/ludovico-einaudi.jpg" alt="Einaudi en el Teatro Real">
+    </a>
+    
+    <figcaption id="img-caption">Ludovico Einaudi en el Teatro Real de Madrid, España</figcaption>
+    
+    <p id="tribute-info"><b>Ludovico Einaudi</b> es un compositor y pianista italiano. Formado en el Conservatorio Verdi de Milán, inició su carrera como compositor clásico, incorporando posteriormente otros estilos y géneros como el pop, rock, folk y world. Einaudi nació en Turín, Piamonte. Hijo del editor e intelectual italiano Giulio Einaudi y nieto de Luigi Einaudi, quien fue presidente de la República Italiana de 1948 a 1955. De niño su madre tocaba el piano con él. Después de trasladarse a Milán, en 1982 se diplomó en composición dentro del Conservatorio de Música Giuseppe Verdi, con Azio Corghi. Ese mismo año, recibió una beca para el Festival de Tanglewood, en Estados Unidos, y continuó sus estudios con el compositor Luciano Berio. Tras pasar varios años componiendo en formas tradicionales, en 1986 comenzó la búsqueda de un lenguaje musical más libre y personal a través de una serie de trabajos para danza, multimedia y, más tarde, para piano.
+
+      Actualmente reside en la región italiana de Piamonte.</p>
+    
+    <p id="discografia"><b>Discografía de Ludovico Einaudi:</b></p>
+    <ul>
+      <li>Time Out (1988)</li>
+      <li>Salgari (1995)</li>
+      <li>Le Onde (1996)</li>
+      <li>Stanze (1997)</li>
+      <li>Fuori dal mondo (1998)</li>
+      <li>Eden Roc (1999)</li>
+      <li>I giorni (2001)</li>
+      <li>Dr. Zhivago (2002)</li>
+      <li>La Scala Concert (2003)</li>
+      <li>Diario Mali (2003)</li>
+      <li>Una mattina (2004)</li>
+      <li>Nuvole Bianche (2004)</li>
+      <li>Divenire (2006)</li>
+      <li>NightBook (2009)</li>
+      <li>La notte della Taranta (2010)</li>
+      <li>Islands (2011)</li>
+      <li>In a Time Lapse (2013)</li>
+      <li>Project Taranta (2015)</li>
+      <li>Elements (2015)</li>
+      <li>Seven Days Walking (2019)</li>
+      <li>12 Songs From Home (2020)</li>
+      <li>Einaudi Undiscovered (2020)</li>
+   </ul>
+    
+    
+  </div>
+
+
+
+CSS:
+
+#title {
+  text-align: center;
+}
+
+#img-caption {
+  width: 600px;
+  text-align: center;
+  margin: -30px 20px 40px 360px
+}
+
+#tribute-info {
+  text-align: justify;
+  margin: 30px 20px 10px 0px
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

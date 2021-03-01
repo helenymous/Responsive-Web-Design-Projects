@@ -1,0 +1,208 @@
+https://codepen.io/helenymous/pen/rNWjaKw?editors=1100
+
+HMTL:
+
+<header id="header">
+  <img id="header-img" class="image" src="https://i.pinimg.com/originals/b2/04/26/b20426a0454bbd87318a1a1098a87faf.png" alt="happybags logo">
+
+  
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#features">~~> PRODUCTOS <~~</a></li>
+      <li><a class="nav-link" href="#prices">~~> PRECIOS <~~</a></li>
+      <li><a class="nav-link" href="#colaborators">~~> COLABORADORES <~~</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div class="submit">
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h1>¡Suscríbete a nuestras ofertas!</h1>
+  <input id="email" name="email" type="email"required placeholder="Escribe tu e-mail">
+  <input id="submit" type="submit">
+</form>
+</div>
+
+<div class="video-page"> 
+  <h1 class="title">UN BOLSO O UNA MOCHILA SON MÁS QUE ALMACENAJE, SON UN REFLEJO DE NUESTROS GUSTOS Y PERSONALIDAD</em><h1>
+    <iframe id="video" width="500" height="442" src="https://www.youtube.com/embed/tLlM8ZQbefE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<div id=content>
+  <section id=features>
+    <h2 class="bolsos">Bolsos de mano</h2>
+    <h3 class="tipos">Diferentes tamaños y colores. ¡Perfectos para usar en el día a día!</h3>
+    
+    <h2 class="mochilas">Mochilas</h2>
+    <h3 class="trabajo">Tanto si quieres ir de excursión como al trabajo, ¡aquí encontrarás lo que necesitas!</h3>
+    <h2 class="elegantes">Bolsos elegantes<h2>
+      <h3 class="guinda">Para poner la guinda a esa velada especial.</h3>
+  </section>
+      
+  <section id=prices>
+    <h2>Bolsos de mano: desde 23,95€</h2>
+    <h2>Mochilas: desde 15,95€</h2>
+    <h2>Bolsos elegantes: desde 25,95€</h2>
+      </section>
+      
+      <hr>
+      
+<section id=colaborators>
+  <h2>Misako</h2>
+  <h2>Parfois</h2>
+  <h2>Kipling</h2>
+  <h2>Balenciaga</h2>
+  <h2>Stradivarius</h2>
+  <h2>C&A<h2>
+      </section>    
+      </div>
+
+
+CSS:
+
+.image {
+  width: 290px;
+  height: 180px;
+  
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(60deg, #FFFFFF, #FFCCCC);
+  width: 1400px;
+  margin-top: -15px;
+  
+}
+
+
+ul {
+  list-style: none;
+  font-family: tahoma;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 20px
+  
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #BD27A0;
+}
+
+nav {
+  width: 100%;
+  color: #BD27A0;
+}
+
+#form {
+  text-align: right;
+  font-family: tahoma;
+  font-size: 11px;
+  color: #703965;
+  position: relative;
+}
+
+#email {
+  width: 300px
+}
+
+.video-page {
+  height: 450px;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(100deg, #FFCCCC, #FFFFFF);
+  padding-bottom: 100px;
+}
+
+
+#content {
+  align-items: center;
+  padding-top: 30px;
+  text-align: center;
+  color: #BD27A0;
+  font-family: tahoma;
+  font-size: 15px;
+}
+
+#features {
+  display: flex;
+  background-color: #E7D7D4;
+  margin-top: -15px;
+}
+
+@media (max-height: 800px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+.title {
+  font-family: tahoma;
+  text-align: center;
+  font-size: 17px;
+  color: #C2159F;
+}
+
+#colaborators {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: monospace;
+  color: #E8108E;
+  font-size: 13px;
+  padding-left: 40px;
+  padding-top: 40px;
+  background-color: pink;
+}
+
+.bolsos {
+  text-align: center;
+  margin-left: 100px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.tipos {
+  text-align: center;
+  margin-top: 110px;
+  margin-left: -260px;
+  font-family: arial;
+}
+
+.mochilas {
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 50px;
+  padding-left: 20px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.trabajo {
+  text-align: center;
+  margin-top: 110px;
+  margin-left: -280px;
+  font-family: arial;
+}
+
+.elegantes {
+  text-align: center;
+  margin-left: 100px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.guinda {
+  text-align: center;
+  margin-top: 110px;
+  margin-left: -250px;
+  font-family: arial;
+}
